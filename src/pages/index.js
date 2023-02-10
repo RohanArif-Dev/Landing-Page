@@ -11,11 +11,11 @@ const LandingPage = () => {
       </div>
       <Hero />
       <Services />
-      <section className="bg-gray-800 py-20">
+      <section className="bg-gray-800 py-20 px-5">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-gray-200 mb-5">Pricing</h2>
-          <div className="flex">
-            <div className="w-1/3 px-5 text-center">
+          <div className="md:flex">
+            <div className="md:w-1/3 p-5 text-center">
               <div className="bg-gray-900 p-10 rounded-lg">
                 <h3 className="text-2xl font-bold mb-3 text-gray-200">Starter</h3>
                 <p className="text-gray-500 mb-3">For small teams</p>
@@ -28,7 +28,7 @@ const LandingPage = () => {
                 </a>
               </div>
             </div>
-            <div className="w-1/3 px-5 text-center">
+            <div className="md:w-1/3 p-5 text-center">
               <div className="bg-gray-900 p-10 rounded-lg">
                 <h3 className="text-2xl font-bold mb-3 text-gray-200">Business</h3>
                 <p className="text-gray-500 mb-3">For growing businesses</p>
@@ -41,7 +41,7 @@ const LandingPage = () => {
                 </a>
               </div>
             </div>
-            <div className="w-1/3 px-5 text-center">
+            <div className="md:w-1/3 p-5 text-center">
               <div className="bg-gray-900 p-10 rounded-lg">
                 <h3 className="text-2xl font-bold mb-3 text-gray-200">
                   Enterprise

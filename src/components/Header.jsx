@@ -2,13 +2,13 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div>
+    <div className="px-5">
       <header className="container mx-auto py-8">
         <div className="flex items-center justify-between">
           <a href="#">
             <h1 className="text-3xl font-bold">GitClick</h1>
           </a>
-          <nav className="flex space-x-5">
+          <nav className="hidden md:flex space-x-5">
             <a className="px-4 py-2 hover:bg-gray-800 rounded" href="#">
               GitClick Client
             </a>
