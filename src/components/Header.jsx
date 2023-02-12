@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <div className="px-5">
-      <header className="container mx-auto py-8">
+      <header className="container mx-auto py-5">
         <div className="flex items-center justify-between">
           <a href="#">
             <h1 className="text-3xl font-bold">GitClick</h1>
