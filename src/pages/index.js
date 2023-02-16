@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 import Pricing from "../components/Pricing";
+import Explore from "@/components/Explore";
 
 const LandingPage = () => {
   return (
@@ -13,6 +14,7 @@ const LandingPage = () => {
       <Hero />
       <Services />
       <Pricing />
+      <Explore />
       <footer className="bg-gray-900 text-center text-gray-500 py-10">
         <p>&copy; My Enterprise App 2023</p>
       </footer>
