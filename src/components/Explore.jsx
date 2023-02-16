@@ -4,8 +4,9 @@ import ExploreCards from "@/assets/explore-cards";
 
 const Explore = () => {
   return (
-    <div className="container mx-auto py-12">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <div className="container mx-auto px-5 py-20">
+      <h2 className="text-3xl font-medium mb-6 text-center">Explore</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-5">
         {ExploreCards.map((card, index) => (
           <div
             key={index}
