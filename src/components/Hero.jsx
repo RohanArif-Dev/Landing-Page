@@ -4,9 +4,8 @@ const Hero = () => {
   return (
     <div className="md:w-auto">
       <section className="container mx-auto py-20 px-5">
-        <h1 className="text-5xl py-10">
-          Streamline your app <br></br> Dev Workflow
-        </h1>
+        <h1 className="text-5xl py-10">Streamline your app </h1>
+        <h1 className="">Dev Workflow</h1>
         <h1 className="py-10">
           This Client will really change your development workflow. Integrate
           with the tool you love

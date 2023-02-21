@@ -10,13 +10,19 @@ const Explore = () => {
         {ExploreCards.map((card, index) => (
           <div
             key={index}
-            className={`bg-white rounded-lg shadow-lg overflow-hidden`}
+            className={`bg-neutral-800 rounded-lg shadow-lg overflow-hidden ${
+              index == 0
+                ? "md:col-span-2 md:row-span-2"
+                : index == 3
+                ? "md:col-span-2"
+                : ""
+            }`}
           >
             <Image
               src={card.image}
               alt={card.title}
-              className="h-48 w-full object-cover"
-              height="200"
+              className="h-fit w-full object-cover"
+              height="500"
               width="300"
             />
             <div className="p-6">
